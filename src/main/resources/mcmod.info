@@ -1,0 +1,16 @@
+[
+{
+  "modid": "witcherywalls",
+  "name": "Witchery Walls",
+  "description": "Village guard towers, keeps, perimeter walls, and village guards ported from Witchery 1.7.10.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Astryxion"],
+  "credits": "Village structures and guards based on Witchery by Emoniph",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
