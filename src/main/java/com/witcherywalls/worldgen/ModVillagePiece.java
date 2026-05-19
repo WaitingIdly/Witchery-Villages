@@ -76,7 +76,7 @@ public abstract class ModVillagePiece extends StructureVillagePieces.Village
     protected void fill(World world, StructureBoundingBox bounds, int x, int y, int z, int w, int h, int d, Block block)
     {
         IBlockState state = block.getDefaultState();
-        if (state.getBlock() instanceof BlockLog)
+        if (block instanceof BlockLog)
         {
             state = state.withProperty(BlockLog.LOG_AXIS, getLogAxisForBox(w, h, d));
         }
